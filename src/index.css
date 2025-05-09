@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@theme {
+  --color-peach: #ff6644;
+  --color-peach-hover: #f55536;
+  --color-dark: #14212b;
+  --color-light: #3970d6;
+  --color-lighter: #60a5f7;
+  --color-light-hover: #364ebe;
+  --color-donut: #f7a072;
+  --color-creamy: #fec89a;
+  --color-sage: #5b8e7d;
+  --color-gray: #ededed;
+  --color-grey: #636363;
+}
+
+@font-face {
+  font-family: "Chakra";
+  src: url("/fonts/chakrapetch/ChakraPetch-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chakra";
+  src: url("/fonts/chakrapetch/ChakraPetch-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chakra";
+  src: url("/fonts/chakrapetch/ChakraPetch-SemiBold.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "mont";
+  src: url("/fonts/montserrat/Montserrat-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "mont";
+  src: url("/fonts/montserrat/Montserrat-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "mont";
+  src: url("/fonts/montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "mont";
+  src: url("/fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+* {
+  font-family: mont;
+  font-style: normal;
+}
+
+p {
+  color: #14212b;
+}
+
+:root {
+  background-color: #f5f5f5;
+  /* max-width: 1700px;
+  margin: auto; */
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: chakra;
+}
+
+.font-bold {
+  font-family: Inter !important;
+  font-weight: 700 !important;
+}
+
+.text-bold {
+  font-family: Inter !important;
+  font-weight: 700 !important;
+}
+
+
+
+
+
+.custom-dropdown .p-dropdown-label,
+.custom-dropdown .p-dropdown-trigger,
+.custom-dropdown {
+  border-radius: 1rem; 
+}
+
+.custom-dropdown {
+  border: 1px solid rgba(128, 128, 128, 0.3); 
+  transition: all 0.3s;
+}
+
+.custom-dropdown:hover,
+.custom-dropdown.p-focus {
+  border-color: #a5b4fc; 
+  box-shadow: 0 0 0 1px #a5b4fc;
+}
